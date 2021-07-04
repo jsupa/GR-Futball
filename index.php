@@ -1,13 +1,14 @@
 <?php
 
-function RandomString($length = 20)
-{
-    $keys = array_merge(range(0, 9), range('a', 'z'));
-    $key = "";
-    for ($i = 0; $i < $length; $i++) {
-        $key .= $keys[mt_rand(0, count($keys) - 1)];
+include('./load.php');
+
+if (isset($_POST['start_game'])) {
+    if (empty($_POST['nickname'])) {
+        $_SESSION['nickname'] = 'anonymous';
+    } else {
+        $_SESSION['nickname'] = $_POST['nickname'];
     }
-    return $key;
+    header('Location: ' . $redirect . '/game');
 }
 
 ?>
@@ -30,7 +31,7 @@ function RandomString($length = 20)
     <div id="main">
         <div id="rotate">
             <h1>.GoodBall</h1>
-            <img src="images/rotate_image.png">
+            <img src="./images/rotate_image.png">
             <h4>prosím otoč<br>svoje zariadenie</h4>
             <h3>alebo</h3>
             <button>zbraziť tabuľku</button>
