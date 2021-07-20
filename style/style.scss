@@ -2,6 +2,19 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently*/
 }
 
 body {
@@ -129,6 +142,7 @@ body {
         font-size: 20px;
         color: #fff;
         padding: 10px 20px;
+        pointer-events: all;
         border-radius: 10px;
         margin: 30px 0 20px;
 
@@ -145,6 +159,7 @@ body {
         border: none;
         font-style: normal;
         font-size: 20px;
+        pointer-events: all;
         font-weight: 100;
         text-transform: uppercase;
         color: #fff;
@@ -186,6 +201,7 @@ body {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    overflow: hidden;
     // iPhone X
     max-width: 812px;
     max-height: 375px;
@@ -225,5 +241,173 @@ body {
     width: 35;
     font-size: 30px;
     font-weight: bold;
+    z-index: 20;
     color: #fff;
+}
+
+.strelec {
+    position: absolute;
+    left: 50%;
+    top: 51%;
+    transform: scale(1.4);
+    animation: wtf 5s infinite;
+}
+
+#score {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    background: black;
+    width: 120px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+    display: none;
+}
+
+#hearts {
+    position: absolute;
+    top: 118px;
+    left: 80px;
+    width: 120px;
+    text-align: center;
+    display: none;
+}
+
+#goolText {
+    display: none;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    letter-spacing: 12px;
+    color: #fff;
+}
+
+#goolButton {
+    display: none;
+    position: absolute;
+    z-index: 230;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    background: #000;
+    border-radius: 15px;
+    border: none;
+    font-style: normal;
+    font-size: 20px;
+    pointer-events: all;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #fff;
+    outline: none;
+    padding: 10px 40px;
+
+    &:active {
+        outline: none;
+        border: none;
+    }
+}
+
+.lopta {
+    transition: .5s;
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    top: 51%;
+    transform: scale(0.4) translateY(100px) translateX(13px);
+    filter: blur(3px) brightness(.8);
+}
+
+.ruky {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 30;
+}
+
+.clickable_ball {
+    filter: blur(0) brightness(1);
+    pointer-events: all;
+    touch-action: manipulation;
+}
+
+#nice {
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+}
+
+.effect {
+    animation: cuus 5s;
+}
+
+@keyframes cuus {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+
+    to {
+        transform: translateY(-100px);
+        filter: blur(5);
+        opacity: 0;
+    }
+
+}
+
+.lopta_default {
+    animation: wtf 5s infinite;
+}
+
+.lopta_zoom_3s {
+    animation: zoomB 3s;
+}
+
+@keyframes zoomB {
+    from {
+        transform: scale(.4);
+    }
+
+    to {
+        transform: scale(1.4);
+    }
+
+}
+
+@keyframes wtf {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+
+    20% {
+        top: 51%;
+        left: 50%;
+    }
+
+    40% {
+        top: 51%;
+        left: 48%;
+    }
+
+    60% {
+        top: 52%;
+        left: 50%;
+    }
+
+    80% {
+        top: 50%;
+        left: 52%;
+    }
+
+    100% {
+        top: 49%;
+        left: 50%;
+    }
 }
