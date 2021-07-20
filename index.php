@@ -8,7 +8,7 @@ if (isset($_POST['start_game'])) {
     } else {
         $_SESSION['nickname'] = $_POST['nickname'];
     }
-    header('Location: ' . $redirect . '/game');
+    header('Location: ./game');
 }
 
 ?>
@@ -46,8 +46,6 @@ if (isset($_POST['start_game'])) {
                 Klikacia hra na reflexy a rýchlosť hráča. Hráš za brankára a máš 4 životy.
                 <br>
                 Loptu možeš chytiť až keď si budeš vidieť ruky.
-                <br><br>
-                <i>tam ti niekto hodí jägera z publika a za to dostanš život navyše.</i>
             </h4>
             <form method="POST">
                 <input type="text" name="nickname" placeholder="zadaj meno" maxlength="20">
