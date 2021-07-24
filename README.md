@@ -1,6 +1,6 @@
 # GR-Futball
 
-IOS app: https://github.com/jsupa/GR-GoodBall/raw/main/GoodBall_IOS.zip
+IOS & MAC app's : https://github.com/jsupa/GR-GoodBall/raw/main/apple_apps.zip
  
 ```SQL
 CREATE TABLE `leaderboard` (
