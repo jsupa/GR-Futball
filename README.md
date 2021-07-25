@@ -1,5 +1,6 @@
-# GR-Futball
+# BordelKód GR-Futball
 
+Demo : https://mobile.creepy-corp.eu/
 IOS & MAC app's : https://github.com/jsupa/GR-GoodBall/raw/main/apple_apps.zip
 
 ## IOS app isntall
