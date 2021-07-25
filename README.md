@@ -8,6 +8,8 @@ IOS & MAC app's : https://github.com/jsupa/GR-GoodBall/raw/main/apple_apps.zip
 - drag and drop ios app to INSTALLED APPS
 - enjoy
 
+![](install_tut.gif)
+
 ## SQL for leaderboard 
 ```SQL
 CREATE TABLE `leaderboard` (
