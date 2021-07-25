@@ -1,7 +1,14 @@
 # GR-Futball
 
-IOS app: https://github.com/jsupa/GR-GoodBall/raw/main/GoodBall_IOS.zip
- 
+IOS & MAC app's : https://github.com/jsupa/GR-GoodBall/raw/main/apple_apps.zip
+
+## IOS app isntall
+- open x-code (work with 13.0 beta 3 for me)
+- go to Window > Devices and Simulators
+- drag and drop ios app to INSTALLED APPS
+- enjoy
+
+## SQL for leaderboard 
 ```SQL
 CREATE TABLE `leaderboard` (
   `id` int(11) UNSIGNED NOT NULL,
