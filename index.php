@@ -43,7 +43,7 @@ if (isset($_POST['start_game'])) {
         <div id="info">
             <h1>.GoodBall</h1>
             <h4>
-                Klikacia hra na reflexy a rýchlosť hráča. Hráš za brankára a máš 4 životy.
+                Klikacia hra na reflexy a rýchlosť hráča. Hráš za brankára a máš 5 životov.
                 <br>
                 Loptu možeš chytiť až keď si budeš vidieť ruky.
             </h4>

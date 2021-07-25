@@ -39,7 +39,7 @@ if (empty($_SESSION['nickname'])) {
             <img src="../images/lopta.png" alt="" class="lopta lopta_default">
             <img src="../images/ruky.png" alt="" class="ruky">
             <div id="dark"> </div>
-            <h1 id="goolText">GOOOOOOL</h1>
+            <h1 id="goolText">GOOOOL</h1>
             <button id="goolButton" onclick="start()">POKRAČUJ</button>
             <div id="nice">+1</div>
             <div id="counter">4</div>
