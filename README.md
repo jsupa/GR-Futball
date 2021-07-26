@@ -12,6 +12,10 @@ IOS & MAC app's : https://github.com/jsupa/GR-GoodBall/raw/main/apple_apps.zip
 ![](install_tut.gif)
 
 ## SQL for leaderboard 
+
+in https://github.com/jsupa/GR-GoodBall/blob/main/load.php <br>
+change SQL credences to own
+
 ```SQL
 CREATE TABLE `leaderboard` (
   `id` int(11) UNSIGNED NOT NULL,
