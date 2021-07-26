@@ -2,6 +2,11 @@
 
 session_start();
 
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "grball";
+
 $redirect = 'http://' . $_SERVER['HTTP_HOST'];
 
 function RandomString($length = 20)
