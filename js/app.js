@@ -1,3 +1,15 @@
+function blur() {
+    document.getElementsByClassName("stadion")[0].classList.add("blur");
+    document.getElementsByClassName("siet")[0].classList.add("blur");
+    document.getElementsByClassName("strelec")[0].classList.add("blur");
+    document.getElementsByClassName("lopta")[0].classList.add("blur");
+}
+function unblur() {
+    document.getElementsByClassName("stadion")[0].classList.remove("blur");
+    document.getElementsByClassName("siet")[0].classList.remove("blur");
+    document.getElementsByClassName("strelec")[0].classList.remove("blur");
+    document.getElementsByClassName("lopta")[0].classList.remove("blur");
+}
 var score = 0;
 var health = 5;
 var hitBall = 0;

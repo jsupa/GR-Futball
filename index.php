@@ -34,7 +34,7 @@ if (isset($_POST['start_game'])) {
             <img src="./images/rotate_image.png">
             <h4>prosím otoč<br>svoje zariadenie</h4>
             <h3>alebo</h3>
-            <button>zbraziť tabuľku</button>
+            <button onclick="window.location.href='/leader.php'">zbraziť tabuľku</button>
         </div>
         <div id="unsupport">
             <h1>.GoodBall</h1>

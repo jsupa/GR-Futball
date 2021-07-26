@@ -4,16 +4,10 @@
   font-family: Arial, Helvetica, sans-serif;
   pointer-events: none;
   -webkit-touch-callout: none;
-  /* iOS Safari */
   -webkit-user-select: none;
-  /* Safari */
-  /* Konqueror HTML */
   -moz-user-select: none;
-  /* Old versions of Firefox */
   -ms-user-select: none;
-  /* Internet Explorer/Edge */
   user-select: none;
-  /* Non-prefixed version, currently*/
 }
 
 body #main {
@@ -67,6 +61,7 @@ body #main {
   color: #fff;
   outline: none;
   padding: 10px 20px;
+  pointer-events: all;
 }
 #rotate button:active {
   outline: none;
@@ -112,7 +107,7 @@ body #main {
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
 }
 #info h4 i {
   font-family: Arial;
@@ -129,6 +124,9 @@ body #main {
   color: #fff;
   padding: 10px 20px;
   pointer-events: all;
+  -webkit-user-select: all;
+     -moz-user-select: all;
+          user-select: all;
   border-radius: 10px;
   margin: 30px 0 20px;
 }
@@ -202,8 +200,9 @@ body #main {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #000;
-  opacity: 0.5;
+  background-color: #fff;
+  filter: blur(5px);
+  opacity: 0.6;
   top: 0px;
 }
 
@@ -262,7 +261,7 @@ body #main {
   transform: translateX(-50%);
   font-size: 60px;
   letter-spacing: 12px;
-  color: #fff;
+  color: #000;
 }
 
 #goolButton {
@@ -377,6 +376,10 @@ body #main {
     transform: scale(1.4);
   }
 }
+.blur {
+  filter: blur(5px);
+}
+
 @-webkit-keyframes wtf {
   0% {
     top: 50%;
@@ -403,6 +406,7 @@ body #main {
     left: 50%;
   }
 }
+
 @keyframes wtf {
   0% {
     top: 50%;
@@ -428,4 +432,49 @@ body #main {
     top: 49%;
     left: 50%;
   }
+}
+#leader {
+  margin: 20px 0;
+  text-align: center;
+}
+#leader h4 {
+  margin: 10px 0;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#leader button {
+  margin: 3% 0;
+  cursor: pointer;
+  background: #000;
+  border-radius: 15px;
+  border: none;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #fff;
+  outline: none;
+  padding: 10px 20px;
+  pointer-events: all;
+}
+#leader button:active {
+  outline: none;
+  border: none;
+}
+#leader div {
+  margin: 15px auto;
+  width: 250px;
+  background-color: #000;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+#leader div p {
+  float: right;
 }/*# sourceMappingURL=style.css.map */
