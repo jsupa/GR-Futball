@@ -25,3 +25,6 @@ ALTER TABLE `leaderboard`
 ALTER TABLE `leaderboard`
   MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 ```
+## Preview Gameplay
+
+![](mobile.gif)
