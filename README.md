@@ -8,6 +8,7 @@ IOS & MAC app's : https://github.com/jsupa/GR-GoodBall/raw/main/apple_apps.zip
 - go to Window > Devices and Simulators
 - drag and drop ios app to INSTALLED APPS
 - enjoy
+- if not work try <a href="https://github.com/jsupa/WebView">xcode project</a>
 
 ![](install_tut.gif)
 
