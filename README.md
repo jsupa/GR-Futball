@@ -6,7 +6,7 @@ Demo : https://mobile.creepy-corp.eu/ <br>
 IOS & MAC app's : https://github.com/jsupa/GR-GoodBall/raw/main/apple_apps.zip <br>
 Time spent : https://wakatime.com/@jsupa/projects/wqwlosnwqa
 
-## IOS app isntall
+## IOS app install
 - open x-code (work with 13.0 beta 3 for me)
 - go to Window > Devices and Simulators
 - drag and drop ios app to INSTALLED APPS
