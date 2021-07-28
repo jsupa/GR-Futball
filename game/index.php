@@ -30,7 +30,7 @@ if (empty($_SESSION['nickname'])) {
             <img src="../images/rotate_image.png">
             <h4>prosím otoč<br>svoje zariadenie</h4>
             <h3>alebo</h3>
-            <button>zbraziť tabuľku</button>
+            <button onclick="window.location.href='/leader.php'">zobraziť tabuľku</button>
         </div>
         <div id="hra">
             <img src="../images/stadion.png" alt="" class="stadion">
@@ -41,6 +41,8 @@ if (empty($_SESSION['nickname'])) {
             <div id="dark"> </div>
             <h1 id="goolText">GOOOOL</h1>
             <button id="goolButton" onclick="start()">POKRAČUJ</button>
+            <button class="goButton" onclick="location.reload()" style="transform: translateX(-110%);">REŠTARTUJ</button>
+            <button class="goButton" onclick="window.location.href='/leader.php'" style="transform: translateX(20%);">TABULKA</button>
             <div id="nice">+1</div>
             <div id="counter">4</div>
             <div id="score">SCORE: 0</div>

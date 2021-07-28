@@ -289,6 +289,36 @@ body #main {
   border: none;
 }
 
+.goButton {
+  display: none;
+  position: absolute;
+  z-index: 230;
+  left: 50%;
+  top: 60%;
+  cursor: pointer;
+  background: #000;
+  border-radius: 15px;
+  border: none;
+  font-style: normal;
+  font-size: 20px;
+  pointer-events: all;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #fff;
+  outline: none;
+  padding: 10px 40px;
+}
+.goButton:nth-child(1) {
+  transform: translateX(110%);
+}
+.goButton:nth-child(2) {
+  transform: translateX(-110%);
+}
+.goButton:active {
+  outline: none;
+  border: none;
+}
+
 .lopta {
   transition: 0.5s;
   z-index: 10;

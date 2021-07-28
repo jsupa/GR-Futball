@@ -80,9 +80,17 @@ function play(score, healt) {
                                 "application/x-www-form-urlencoded"
                             );
                             xhttp.send("score=" + score);
-                            // ! SAVE SCORE AND NAME WITH SQL POST
-                            // ! AND SHOW GAME OWER SCREEN
-                            // ? RESTART & SCOREBOARD
+
+                            document.getElementById("dark").style.display =
+                                "block";
+                            document.getElementById("goolText").style.display =
+                                "block";
+                            document.getElementsByClassName(
+                                "goButton"
+                            )[0].style.display = "block";
+                            document.getElementsByClassName(
+                                "goButton"
+                            )[1].style.display = "block";
                         }
                     }
                     ball.classList.remove("clickable_ball");
@@ -153,9 +161,16 @@ function play(score, healt) {
                                 "application/x-www-form-urlencoded"
                             );
                             xhttp.send("score=" + score);
-                            // ! SAVE SCORE AND NAME WITH SQL POST
-                            // ! AND SHOW GAME OWER SCREEN
-                            // ? RESTART & SCOREBOARD
+                            document.getElementById("dark").style.display =
+                                "block";
+                            document.getElementById("goolText").style.display =
+                                "block";
+                            document.getElementsByClassName(
+                                "goButton"
+                            )[0].style.display = "block";
+                            document.getElementsByClassName(
+                                "goButton"
+                            )[1].style.display = "block";
                         }
                     }
                     ball.classList.remove("clickable_ball");
@@ -226,9 +241,16 @@ function play(score, healt) {
                                 "application/x-www-form-urlencoded"
                             );
                             xhttp.send("score=" + score);
-                            // ! SAVE SCORE AND NAME WITH SQL POST
-                            // ! AND SHOW GAME OWER SCREEN
-                            // ? RESTART & SCOREBOARD
+                            document.getElementById("dark").style.display =
+                                "block";
+                            document.getElementById("goolText").style.display =
+                                "block";
+                            document.getElementsByClassName(
+                                "goButton"
+                            )[0].style.display = "block";
+                            document.getElementsByClassName(
+                                "goButton"
+                            )[1].style.display = "block";
                         }
                     }
                     ball.classList.remove("clickable_ball");
@@ -299,9 +321,16 @@ function play(score, healt) {
                                 "application/x-www-form-urlencoded"
                             );
                             xhttp.send("score=" + score);
-                            // ! SAVE SCORE AND NAME WITH SQL POST
-                            // ! AND SHOW GAME OWER SCREEN
-                            // ? RESTART & SCOREBOARD
+                            document.getElementById("dark").style.display =
+                                "block";
+                            document.getElementById("goolText").style.display =
+                                "block";
+                            document.getElementsByClassName(
+                                "goButton"
+                            )[0].style.display = "block";
+                            document.getElementsByClassName(
+                                "goButton"
+                            )[1].style.display = "block";
                         }
                     }
                     ball.classList.remove("clickable_ball");
@@ -372,9 +401,16 @@ function play(score, healt) {
                                 "application/x-www-form-urlencoded"
                             );
                             xhttp.send("score=" + score);
-                            // ! SAVE SCORE AND NAME WITH SQL POST
-                            // ! AND SHOW GAME OWER SCREEN
-                            // ? RESTART & SCOREBOARD
+                            document.getElementById("dark").style.display =
+                                "block";
+                            document.getElementById("goolText").style.display =
+                                "block";
+                            document.getElementsByClassName(
+                                "goButton"
+                            )[0].style.display = "block";
+                            document.getElementsByClassName(
+                                "goButton"
+                            )[1].style.display = "block";
                         }
                     }
                     ball.classList.remove("clickable_ball");
@@ -445,9 +481,16 @@ function play(score, healt) {
                                 "application/x-www-form-urlencoded"
                             );
                             xhttp.send("score=" + score);
-                            // ! SAVE SCORE AND NAME WITH SQL POST
-                            // ! AND SHOW GAME OWER SCREEN
-                            // ? RESTART & SCOREBOARD
+                            document.getElementById("dark").style.display =
+                                "block";
+                            document.getElementById("goolText").style.display =
+                                "block";
+                            document.getElementsByClassName(
+                                "goButton"
+                            )[0].style.display = "block";
+                            document.getElementsByClassName(
+                                "goButton"
+                            )[1].style.display = "block";
                         }
                     }
                     ball.classList.remove("clickable_ball");
