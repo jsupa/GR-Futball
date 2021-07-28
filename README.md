@@ -8,10 +8,15 @@ IOS & MAC app's : https://github.com/jsupa/GR-GoodBall/raw/main/apple_apps.zip
 - go to Window > Devices and Simulators
 - drag and drop ios app to INSTALLED APPS
 - enjoy
+- if not work try <a href="https://github.com/jsupa/WebView">xcode project</a>
 
 ![](install_tut.gif)
 
 ## SQL for leaderboard 
+
+in https://github.com/jsupa/GR-GoodBall/blob/main/load.php <br>
+change SQL credences to own
+
 ```SQL
 CREATE TABLE `leaderboard` (
   `id` int(11) UNSIGNED NOT NULL,
