@@ -18,7 +18,7 @@ Time spent : https://wakatime.com/@jsupa/projects/wqwlosnwqa
 ## SQL for leaderboard 
 
 in https://github.com/jsupa/GR-GoodBall/blob/main/load.php <br>
-change SQL credences to own
+change <a href="https://github.com/jsupa/GR-GoodBall/blob/50bc7300dc9e4ebddcffbcfa950c587b551391c5/load.php#L5">SQL credences</a> to own
 
 ```SQL
 CREATE TABLE `leaderboard` (
