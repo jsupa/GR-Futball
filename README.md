@@ -1,7 +1,10 @@
-# BordelKód GR-Futball
+# BordelKód GR-Futball <img src="https://visitor-badge.glitch.me/badge?page_id=jsupa.gr-goodball"> <img src="https://wakatime.com/badge/github/jsupa/GR-GoodBall.svg">
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y246Y0V)
 
 Demo : https://mobile.creepy-corp.eu/ <br>
-IOS & MAC app's : https://github.com/jsupa/GR-GoodBall/raw/main/apple_apps.zip
+IOS & MAC app's : https://github.com/jsupa/GR-GoodBall/raw/main/apple_apps.zip <br>
+Time spent : https://wakatime.com/@jsupa/projects/wqwlosnwqa
 
 ## IOS app isntall
 - open x-code (work with 13.0 beta 3 for me)
