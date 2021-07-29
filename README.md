@@ -24,7 +24,7 @@ change <a href="https://github.com/jsupa/GR-GoodBall/blob/50bc7300dc9e4ebddcffbc
 CREATE TABLE `leaderboard` (
   `id` int(11) UNSIGNED NOT NULL,
   `nickname` text,
-  `score` varchar(20) DEFAULT NULL
+  `score` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 ALTER TABLE `leaderboard`
