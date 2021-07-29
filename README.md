@@ -3,6 +3,7 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y246Y0V)
 
 Demo : https://mobile.creepy-corp.eu/ <br>
+Design : https://www.figma.com/file/7I3HRiq6xN5aBrig8JRZCm/Untitled?node-id=0%3A1 <br>
 IOS & MAC app's : https://github.com/jsupa/GR-GoodBall/raw/main/apple_apps.zip <br>
 Time spent : https://wakatime.com/@jsupa/projects/wqwlosnwqa
 
